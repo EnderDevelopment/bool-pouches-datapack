@@ -1,0 +1,2 @@
+give @s minecraft:iron_nugget[minecraft:food={can_always_eat:true,eat_seconds:0.8f,nutrition:0,saturation:0.0f},minecraft:max_stack_size=1,minecraft:max_damage=20,minecraft:damage=0,minecraft:custom_data={pouch_can:1b},minecraft:custom_name={"text":"BOOL Pouches (10mg)","color":"green","bold":true},minecraft:lore=[{"text":"Mint 10mg Extra Strong"},{"text":"Contains 20 portions"}]] 1
+scoreboard players set @s remaining_pouches 20

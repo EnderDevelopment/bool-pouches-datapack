@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "consume_pouch": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{pouch_can:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bool_pouches:consume"
+  }
+}
